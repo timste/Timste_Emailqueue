@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Timste_Emailqueue>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Timste_Emailqueue>
+    </modules>
+</config>

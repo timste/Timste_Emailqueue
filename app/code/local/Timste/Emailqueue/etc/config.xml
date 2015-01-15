@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Timste_Emailqueue>
+            <version>0.1.0</version>
+        </Timste_Emailqueue>
+    </modules>
+    <global>
+        <models>
+            <timste_emailqueue>
+                <class>Timste_Emailqueue_Model</class>
+                <resourceModel>timste_emailqueue_resource</resourceModel>
+            </timste_emailqueue>
+            <timste_emailqueue_resource>
+                <class>Timste_Emailqueue_Model_Resource</class>
+            </timste_emailqueue_resource>
+
+            <core>
+                <rewrite>
+                    <email_template_mailer>Timste_Emailqueue_Model_Email_Template_Mailer</email_template_mailer>
+                </rewrite>
+            </core>
+
+        </models>
+        <blocks>
+            <timste_emailqueue>
+                <class>Timste_Emailqueue_Block</class>
+            </timste_emailqueue>
+        </blocks>
+        <helpers>
+            <timste_emailqueue>
+                <class>Timste_Emailqueue_Helper</class>
+            </timste_emailqueue>
+        </helpers>
+    </global>
+</config>
