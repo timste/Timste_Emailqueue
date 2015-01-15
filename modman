@@ -1,0 +1,2 @@
+app/code/local/Timste/Emailqueue/ app/code/local/Timste/Emailqueue/
+app/etc/modules/Timste_Emailqueue.xml app/etc/modules/Timste_Emailqueue.xml
