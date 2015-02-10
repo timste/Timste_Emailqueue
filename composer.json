@@ -6,7 +6,7 @@
     "description":"disable the email queue transactional email",
     "authors":[
         {
-            "name":"Timste",
+            "name":"Timste"
         }
     ],
     "require":{
