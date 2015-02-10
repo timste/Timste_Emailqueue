@@ -1,0 +1,15 @@
+{
+    "name":"timste/emailqueue",
+    "type":"magento-module",
+    "license":"CC-BY-3.0",
+    "homepage":"https://github.com/timste/Timste_Emailqueue",
+    "description":"disable the email queue transactional email",
+    "authors":[
+        {
+            "name":"Timste",
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
